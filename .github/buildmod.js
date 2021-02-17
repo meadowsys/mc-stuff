@@ -8,6 +8,7 @@ const { spawn } = require("child_process");
 const path = require("path");
 const os = require("os");
 const fs = require("fs");
+const https = require("https");
 
 /**
  * @param {string | Array<string>} cmd command to run
@@ -37,6 +38,23 @@ const runcmd = (cmd, cwd) => {
    });
 };
 
+/**
+ * @param {string} url
+ * @return {Promise<string>}
+ */
+const fetchurl = (url) => new Promise((res, rej) => {
+   const dataparts = [];
+   https.get(url, {
+      headers: {
+         "user-agent": `autumnblazey/mc-tweaks modbuilder script (in CI: ${process.env.CI || false})`
+      }
+   }, requested => {
+      requested.on("error", rej);
+      requested.on("data", data => dataparts.push(data));
+      requested.on("end", () => res(Buffer.concat(dataparts).toString()))
+   });
+});
+
 function printborder() {
    console.log("-".repeat(Math.min(32, process.stdout.columns - 2)));
    console.log();
@@ -64,6 +82,12 @@ function printborder() {
    await runcmd(`git clone https://github.com/${repo} ${repolocaldir}`, ".");
    printborder();
 
+   // get and checkout ref
+   const ghtag = JSON.parse(await fetchurl(`https://api.github.com/repos/${repo}/tags`))[0];
+   console.log(`checking out ${ghtag.name}`);
+   await runcmd(`git checkout ${ghtag.name}`, repolocaldir);
+   printborder();
+
    // run build
    console.log("running build...");
    await runcmd(`sudo chmod +x gradlew`, repolocaldir);
@@ -73,8 +97,8 @@ function printborder() {
    // determine good output file
    let files = fs.readdirSync(path.resolve(fullpath, "./build/libs"));
    console.log(`found "${files.join("\", \"")}"`);
-      files = files.filter(val => !val.toLowerCase().includes("dev"))
-                   .filter(val => !val.toLowerCase().includes("sources"));
+   files = files.filter(val => !val.toLowerCase().includes("dev"))
+                .filter(val => !val.toLowerCase().includes("sources"));
    console.log(`but keeping only "${files.join("\", \"")}"`);
 
    // move mod to out dir
