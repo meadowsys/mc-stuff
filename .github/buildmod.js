@@ -68,8 +68,8 @@ function printborder() {
    // ensure linux
    if (os.platform() != "linux") throw "os isn't linux, might not work";
    // ensure right amount of args
-   if (process.argv.length !== 2 + 2) throw "args not right";
-   const [repo, repolocaldir] = process.argv.slice(2);
+   if (process.argv.length !== 2 + 2 && process.argv.length !== 3 + 2) throw "args not right";
+   let [repo, repolocaldir, ref] = process.argv.slice(2);
    // ensure target dir is either not present or empty
    const fullpath = path.resolve(process.cwd(), repolocaldir);
    if (
@@ -83,9 +83,9 @@ function printborder() {
    printborder();
 
    // get and checkout ref
-   const ghtag = JSON.parse(await fetchurl(`https://api.github.com/repos/${repo}/tags`))[0];
-   console.log(`checking out ${ghtag.name}`);
-   await runcmd(`git checkout ${ghtag.name}`, repolocaldir);
+   if (!ref) ref = JSON.parse(await fetchurl(`https://api.github.com/repos/${repo}/tags`))[0].name;
+   console.log(`checking out ${ref}`);
+   await runcmd(`git checkout ${ref}`, repolocaldir);
    printborder();
 
    // run build
