@@ -1,0 +1,74 @@
+# builds mods that are confirmed working with each other
+---
+name: safe
+on:
+  push:
+  # schedule:
+  # - cron: 0 2 1,15 * *
+
+jobs:
+  build:
+    name: build
+    runs-on: ubuntu-20.04
+    steps:
+    - name: checkout repo
+      uses: actions/checkout@v2
+    - name: setup jdk
+      uses: actions/setup-java@v1.4.3
+      with:
+        java-version: 1.8
+
+      # build the mods
+
+    - run: node .github/buildmod gnembon/chat-up chatup v1.0
+      continue-on-error: true
+    - run: node .github/buildmod kvverti/colormatic colormatic 2.2.8
+      continue-on-error: true
+    # - run: node .github/buildmod FabricMC/fabric fabric
+    - run: node .github/buildmod gnembon/fabric-carpet carpet 1.4.27
+      continue-on-error: true
+    - run: node .github/buildmod minelittlepony/hdskins hdskins v6.3.5-mc1.16.4
+      continue-on-error: true
+    - run: node .github/buildmod CaffeineMC/hydrogen-fabric hydrogen mc1.16.5-v0.2.0
+      continue-on-error: true
+    # - run: node .github/buildmod LambdAurora/LambDynamicLights dynamiclights
+    # - run: node .github/buildmod maruohon/litematica litematica
+    - run: node .github/buildmod CaffeineMC/lithium-fabric lithium mc1.16.5-0.6.3
+      continue-on-error: true
+    - run: node .github/buildmod maruohon/malilib malilib 72e88e14d33bf28f06dd69ede58cebd8496babe2
+      continue-on-error: true
+    - run: node .github/buildmod minelittlepony/minelittlepony minelp 1.16.2-4.2
+      continue-on-error: true
+    # - run: node .github/buildmod maruohon/minihud minihud
+    - run: node .github/buildmod TerraformersMC/ModMenu modmenu v1.16.7
+      continue-on-error: true
+    - run: node .github/buildmod joaoh1/OkZoomer okzoomer 4.0.1+1.16.2
+      continue-on-error: true
+    - run: node .github/buildmod CaffeineMC/phosphor-fabric phosphor mc1.16.2-v0.7.1
+      continue-on-error: true
+    - run: node .github/buildmod sollace/presence-footsteps pf r29
+      continue-on-error: true
+    # - run: node .github/buildmod ReplayMod/ReplayMod replay
+    - run: node .github/buildmod MisterPeModder/ShulkerBoxTooltip shulkertooltip v2.3.5+1.16.5
+      continue-on-error: true
+    - run: node .github/buildmod CaffeineMC/sodium-fabric sodium mc1.16.3-0.1.0
+      continue-on-error: true
+    - run: node .github/buildmod maruohon/tellme tellme 1c4ee82559e7be34b08519dff26bfca7d2248c71
+      continue-on-error: true
+    - run: node .github/buildmod maruohon/tweakeroo tweakeroo 30989503e57b1d4fcb2329dc5eeea2ae20ec904b
+      continue-on-error: true
+    - run: node .github/buildmod Sollace/Void-Fog voidfog 2.5-1.17
+      continue-on-error: true
+
+
+
+    # - name: build minelittlepony
+    #   run: node .github/buildmod minelittlepony/minelittlepony minelp
+    # - name: build hdskins
+    #   run: node .github/buildmod minelittlepony/hdskins hdskins
+
+    - name: upload mods
+      uses: actions/upload-artifact@v2
+      with:
+        name: mods
+        path: mods

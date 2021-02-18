@@ -83,7 +83,7 @@ function printborder() {
    printborder();
 
    // get and checkout ref
-   if (!ref) ref = JSON.parse(await fetchurl(`https://api.github.com/repos/${repo}/tags`))[0].name;
+   if (!ref) void console.log("no ref provided, fetching the github api...") || (ref = JSON.parse(await fetchurl(`https://api.github.com/repos/${repo}/tags`))[0].name);
    console.log(`checking out ${ref}`);
    await runcmd(`git checkout ${ref}`, repolocaldir);
    printborder();
