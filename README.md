@@ -2,8 +2,6 @@
 
 A list of minecraft mods and resource packs that I use when I play minecraft. These are all open sourced.
 
-## **_note: there might be a mod conflict between void fog and some other mod_**
-
 ## mods
 
 I use and highly recommend the [fabric modding platform](https://fabricmc.net/)
