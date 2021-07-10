@@ -10,6 +10,7 @@ I use and highly recommend the [fabric modding platform](https://fabricmc.net/)
 - [Colormatic](https://github.com/kvverti/colormatic) (client): implements MCPatcher custom colors mod, and is compatible with Optifine custom colors
 - [Fabric API](https://github.com/FabricMC/fabric) (client and/or server): library mod
 - [Fabric Carpet](https://github.com/gnembon/fabric-carpet/) (client and/or server): technical control utility mod
+- [fabrishot](https://github.com/ramidzkh/fabrishot) (client): take high-resolution screenshots
 - [HDSkins](https://github.com/minelittlepony/hdskins/) (client): high resolution skins
 - [Hydrogen](https://github.com/CaffeineMC/hydrogen-fabric) (client and/or server): things of which are too dangerous to put in Lithium
 - [LambDynamicLights](https://github.com/LambdAurora/LambDynamicLights/) (client): dynamic lights mod
