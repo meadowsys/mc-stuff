@@ -8,7 +8,7 @@ I use and highly recommend the [fabric modding platform](https://fabricmc.net/).
 
 See [key](#key) for information on what i mean in the version columns.
 
-| mod name              | environment          | description                                                                                   | MC 1.16.5 | MC 1.17.x | MC 1.18     | mod's own download link                        | repo link                            |
+| mod name              | environment          | description                                                                                   | MC 1.16.5 | MC 1.17.x | MC 1.18     | official download link                         | repo link                            |
 | --------------------- | -------------------- | --------------------------------------------------------------------------------------------- | --------- | --------- | ----------- | ---------------------------------------------- | ------------------------------------ |
 | Advancements Enlarger | client               | makes the advancements menu bigger (vanilla is a smol fixed size)                             | yes       | yes       | no          | [curseforge][curseforge:Advancements Enlarger] | [github][repo:Advancements Enlarger] |
 | Chat up!              | client               | raises the chat up by 10 pixels to improve visibility of armor hunches                        | yes       | yes       | yes(?)      | [github][github:Chat up!]                      | [github][repo:Chat up!]              |
