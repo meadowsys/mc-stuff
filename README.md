@@ -1,42 +1,61 @@
 # mc stuff
 
-A list of minecraft mods and resource packs that I use when I play minecraft. These are all open sourced.
+A list of minecraft mods and resource packs that I use when I play minecraft. Most, but not all, are open sourced.
 
 ## mods
 
-I use and highly recommend the [fabric modding platform](https://fabricmc.net/)
+I use and highly recommend the [fabric modding platform](https://fabricmc.net/).
 
-- [Advancements Enlarger](https://github.com/shedaniel/advancements-enlarger) (client): makes the advancements menu bigger (vanilla is a smol fixed size)
-- [Chat up!](https://github.com/gnembon/chat-up) (client): raises the chat up by 10 pixels to improve visibility of armor hunches
-- [Colormatic](https://github.com/kvverti/colormatic) (client): implements MCPatcher custom colors mod, and is compatible with Optifine custom colors
-- [Fabric API](https://github.com/FabricMC/fabric) (client and/or server): library mod
-- [Fabric Carpet](https://github.com/gnembon/fabric-carpet/) (client and/or server): technical control utility mod
-- [fabrishot](https://github.com/ramidzkh/fabrishot) (client): take high-resolution screenshots
-- [HDSkins](https://github.com/minelittlepony/hdskins/) (client): high resolution skins
-- [Hydrogen](https://github.com/CaffeineMC/hydrogen-fabric) (client and/or server): things of which are too dangerous to put in Lithium
-- [Indium](https://github.com/comp500/Indium) (client): an addon mod for Sodium that implements the Fabric Rendering API, required to support other graphics mods that use the API
-- [LambDynamicLights](https://github.com/LambdAurora/LambDynamicLights/) (client): dynamic lights mod
-- [Litematica](https://github.com/maruohon/litematica) (client): schematic mod
-- [Lithium](https://github.com/CaffeineMC/lithium-fabric) (client and/or server): performance optimisation mod that is designed to not break things
-- [malilib](https://github.com/maruohon/malilib) (client and/or server): library mod
-- [MineLittlePony](https://github.com/minelittlepony/minelittlepony) (client): turns players and mobs into ponies
-- [MiniHUD](https://github.com/maruohon/minihud) (client): mini heads-up display mod
-- [ModMenu](https://github.com/TerraformersMC/ModMenu) (client): adds a menu for viewing a list of installed mods
-- [Ok Zoomer](https://github.com/joaoh1/OkZoomer/) (client): highly configurable zoom key
-- Physics Mod (client): adds realistic physics-related features to Minecraft (_closed source_: download [here](https://www.curseforge.com/minecraft/mc-mods/physics-mod))
-- [Phosphor](https://github.com/CaffeineMC/phosphor-fabric) (client and/or server): lighting engine optimisation mod
-- [Presence Footsteps](https://github.com/sollace/presence-footsteps) (client): overcomplicated footsteps enhancement mod
-- [ReplayMod](https://github.com/ReplayMod/ReplayMod) (client): record game sessions and replay them afterwards from any perspective
-- [Shulker Box Tooltip](https://github.com/MisterPeModder/ShulkerBoxTooltip) (client): see a preview window of shulker box contents without placing it down
-- [Sodium](https://github.com/CaffeineMC/sodium-fabric) (client and/or server): optimisation mod that improves frame rates, reduces micro-stutter, and fixes graphical issues
-- [TellMe](https://github.com/maruohon/tellme) (client and/or server): small informational mod, provides technical type information about the game
-- [Tweakeroo](https://github.com/maruohon/tweakeroo) (client): adds a selection of miscellaneous, configurable, client-side tweaks to the game
-- [Simple Voice Chat](https://github.com/henkelmax/simple-voice-chat) (client and/or server): adds a proximity voice chat
-- [Void Fog](https://github.com/Sollace/Void-Fog) (client): brings back the void fog
+See [key](#key) for information on what i mean in the version columns.
 
-<!-- am making a note of this here https://github.com/jellysquid3/cadmium-fabric -->
+| mod name              | environment          | description                                                                                   | download link                                                                          | repo link                                             | MC 1.16.5 | MC 1.17.x | MC 1.18     |
+| --------------------- | -------------------- | --------------------------------------------------------------------------------------------- | -------------------------------------------------------------------------------------- | ----------------------------------------------------- | --------- | --------- | ----------- |
+| Advancements Enlarger | client               | makes the advancements menu bigger (vanilla is a smol fixed size)                             | [curseforge](https://www.curseforge.com/minecraft/mc-mods/advancements-enlarger/files) | <https://github.com/shedaniel/advancements-enlarger>  | yes       | yes       | no          |
+| Chat up!              | client               | raises the chat up by 10 pixels to improve visibility of armor hunches                        | [github](https://github.com/gnembon/chat-up/releases)                                  | <https://github.com/gnembon/chat-up>                  | yes       | yes       | yes(?)      |
+| Colormatic            | client               | implements MCPatcher custom colors mod, compatible with Optifine custom colors                | [github](https://github.com/kvverti/colormatic/releases)                               | <https://github.com/kvverti/colormatic>               | yes       | yes       | dev (maybe) |
+| Fabric API            | client and/or server | library mod                                                                                   | [github](https://github.com/FabricMC/fabric/releases)                                  | <https://github.com/FabricMC/fabric>                  | yes       | yes       | yes(?)      |
+| Fabric Carpet         | client and/or server | technical control utility mod                                                                 | [github](https://github.com/gnembon/fabric-carpet/releases)                            | <https://github.com/gnembon/fabric-carpet/>           | yes       | yes       | yes(?)      |
+| fabrishot             | client               | take high-resolution screenshots                                                              | [modrinth](https://modrinth.com/mod/fabrishot)                                         | <https://github.com/ramidzkh/fabrishot>               | yes       | yes       | yes(?)      |
+| HDSkins               | client               | high resolution skins                                                                         | [github](https://github.com/MineLittlePony/HDSkins/releases)                           | <https://github.com/minelittlepony/hdskins/>          | yes       | yes       | yes(?)      |
+| Hydrogen              | client and/or server | things of which are too dangerous to put in Lithium                                           | [github](https://github.com/CaffeineMC/hydrogen-fabric/releases)                       | <https://github.com/CaffeineMC/hydrogen-fabric>       | yes       | yes       | no          |
+| Indium                | client               | addon for Sodium that implements Fabric Rendering API (does nothing on its own)               | [github](https://github.com/comp500/Indium/releases)                                   | <https://github.com/comp500/Indium>                   | yes       | yes       | unstable(?) |
+| LambDynamicLights     | client               | dynamic lights mod                                                                            | [github](https://github.com/LambdAurora/LambDynamicLights/releases)                    | <https://github.com/LambdAurora/LambDynamicLights/>   | yes       | yes       | no          |
+| Litematica            | client               | schematic mod                                                                                 | [curseforge](https://www.curseforge.com/minecraft/mc-mods/litematica/files)            | <https://github.com/maruohon/litematica>              | yes       | yes       | no          |
+| Lithium               | client and/or server | general performance optimisation mod that is designed to not break things                     | [github](https://github.com/CaffeineMC/lithium-fabric/releases)                        | <https://github.com/CaffeineMC/lithium-fabric>        | yes       | yes       | no          |
+| malilib               | client and/or server | library mod                                                                                   | [curseforge](https://www.curseforge.com/minecraft/mc-mods/malilib/files)               | <https://github.com/maruohon/malilib>                 | yes       | yes       | yes(?)      |
+| MineLittlePony        | client               | turns players and mobs into ponies                                                            | [github](https://github.com/MineLittlePony/MineLittlePony/releases)                    | <https://github.com/minelittlepony/minelittlepony>    | yes       | yes       | yes(?)      |
+| MiniHUD               | client               | mini heads-up display mod                                                                     | [curseforge](https://www.curseforge.com/minecraft/mc-mods/minihud/files)               | <https://github.com/maruohon/minihud>                 | yes       | yes       | no          |
+| ModMenu               | client               | adds a menu for viewing a list of installed mods                                              | [modmenu](https://github.com/TerraformersMC/ModMenu/releases)                          | <https://github.com/TerraformersMC/ModMenu>           | yes       | yes       | maybe(?)    |
+| Ok Zoomer             | client               | highly configurable zoom key                                                                  | [github](https://github.com/EnnuiL/OkZoomer/releases)                                  | <https://github.com/joaoh1/OkZoomer/>                 | yes       | yes       | no          |
+| Physics Mod           | client               | physics mod                                                                                   | [website](https://minecraftphysicsmod.com/download)                                    | N/A (closed source)                                   | yes       | yes       | yes(?)      |
+| Phosphor              | client and/or server | lighting engine optimisation mod                                                              | [github](https://github.com/CaffeineMC/phosphor-fabric/releases)                       | <https://github.com/CaffeineMC/phosphor-fabric>       | yes       | yes(?)    | no          |
+| Presence Footsteps    | client               | overcomplicated footsteps enhancement mod                                                     | [github](https://github.com/Sollace/Presence-Footsteps/releases)                       | <https://github.com/sollace/presence-footsteps>       | yes       | yes       | yes(?)      |
+| ReplayMod             | client               | record game sessions and replay them afterwards from any perspective                          | [website](https://www.replaymod.com/download/)                                         | <https://github.com/ReplayMod/ReplayMod>              | yes       | yes       | no          |
+| Shulker Box Tooltip   | client               | see a preview window of shulker box contents without placing it down                          | [github](https://github.com/MisterPeModder/ShulkerBoxTooltip/releases)                 | <https://github.com/MisterPeModder/ShulkerBoxTooltip> | yes       | yes       | maybe(?)    |
+| Sodium                | client and/or server | optimisation mod that improves frame rates, reduces micro-stutter, and fixes graphical issues | [github](https://github.com/CaffeineMC/sodium-fabric/releases)                         | <https://github.com/CaffeineMC/sodium-fabric>         | yes       | yes       | unstable(?) |
+| TellMe                | client and/or server | small informational mod, provides technical type information about the game                   | [curseforge](https://www.curseforge.com/minecraft/mc-mods/tellme/files)                | <https://github.com/maruohon/tellme>                  | yes       | yes       | no          |
+| Tweakeroo             | client               | adds a selection of miscellaneous, configurable, client-side tweaks to the game               | [curseforge](https://www.curseforge.com/minecraft/mc-mods/tweakeroo/files)             | <https://github.com/maruohon/tweakeroo>               | yes       | yes       | no          |
+| Simple Voice Chat     | client and/or server | adds a proximity voice chat                                                                   | [curseforge](https://www.curseforge.com/minecraft/mc-mods/simple-voice-chat/files)     | <https://github.com/henkelmax/simple-voice-chat>      | yes       | yes       | yes(?)      |
+| Void Fog              | client               | brings back the void fog                                                                      | [github](https://github.com/Sollace/Void-Fog/releases)                                 | <https://github.com/Sollace/Void-Fog>                 | yes       | yes       | yes(?)      |
+
+<!-- am making a note of this here https://github.com/jellysquid3/cadmium-fabric
+     although it hasn't been worked on since late 2020, still on 1.15.2 -->
 
 ## resource packs
 
-- [Love & Tolerance](https://github.com/love-and-tolerance/love-and-tolerance): resource pack inspired by the visual art style and design of _My Little Pony: Friendship is Magic_
-- [turtlelang](https://github.com/autumnblazey/turtlelang): my stupid little dinky resourcepack that does literally nothing except change things to the way I like, and makes Minecraft (slightly) less playable in the process
+| pack name        | description                                                                                        | download link                                                               | repo link                                                  | MC 1.16.5 | MC 1.17.x | MC 1.18 |
+| ---------------- | -------------------------------------------------------------------------------------------------- | --------------------------------------------------------------------------- | ---------------------------------------------------------- | --------- | --------- | ------- |
+| Love & Tolerance | resource pack inspired by the visual art style and design of _My Little Pony: Friendship is Magic_ | [github](https://github.com/Love-and-Tolerance/Love-and-Tolerance/releases) | <https://github.com/Love-and-Tolerance/Love-and-Tolerance> | a         | a         | a       |
+| turtlelang       | provides a ingame language called turtlelang, explore at your own risk!                            | [github](https://github.com/autumnblazey/turtlelang/releases)               | <https://github.com/autumnblazey/turtlelang>               | a         | a         | a       |
+
+## key
+
+| thing           | meaning                                                                                                |
+| --------------- | ------------------------------------------------------------------------------------------------------ |
+| **yes**         | stable version is released                                                                             |
+| **no**          | not released                                                                                           |
+| **maybe**       | released for a different version of MC, but *might* be compatible                                      |
+| **dev**         | unreleased version available on development trunk                                                      |
+| **dev (maybe)** | unreleased version available on development trunk, but for a different version of MC (see **`maybe`**) |
+| **unstable**    | prerelease version is released                                                                         |
+| **?**           | I have not tested *yet*, cannot personally verify it works                                             |
