@@ -43,10 +43,10 @@ See [key](#key) for information on what i mean in the version columns.
 
 ## resource packs
 
-| pack name        | description                                                                                        | MC 1.16.5 | MC 1.17.x | MC 1.18    | official download link                                                      | repo link                                                  |
-| ---------------- | -------------------------------------------------------------------------------------------------- | --------- | --------- | ---------- | --------------------------------------------------------------------------- | ---------------------------------------------------------- |
-| Love & Tolerance | resource pack inspired by the visual art style and design of _My Little Pony: Friendship is Magic_ | yes       | yes       | partial(?) | [github](https://github.com/Love-and-Tolerance/Love-and-Tolerance/releases) | <https://github.com/Love-and-Tolerance/Love-and-Tolerance> |
-| turtlelang       | provides a ingame language called turtlelang, explore at your own risk!                            | yes       | partial   | partial(?) | [github](https://github.com/autumnblazey/turtlelang/releases)               | <https://github.com/autumnblazey/turtlelang>               |
+| pack name        | description                                                                                        | MC 1.16.5 | MC 1.17.x | MC 1.18    | official download link            | repo link                                                  |
+| ---------------- | -------------------------------------------------------------------------------------------------- | --------- | --------- | ---------- | --------------------------------- | ---------------------------------------------------------- |
+| Love & Tolerance | resource pack inspired by the visual art style and design of _My Little Pony: Friendship is Magic_ | yes       | yes       | partial(?) | [github][github:Love & Tolerance] | [github][repo:Love & Tolerance] |
+| turtlelang       | provides a ingame language called turtlelang, explore at your own risk!                            | yes       | partial   | partial(?) | [github][github:turtlelang]       | [github][repo:turtlelang] |
 
 ## key
 
@@ -62,6 +62,8 @@ See [key](#key) for information on what i mean in the version columns.
 | ?           | I have not tested it *yet*, cannot personally verify that it works                               |
 
 <!-- download sources in order of preference. github, website, modrinth, curseforge -->
+
+<!-- MODS -->
 
 [repo:Advancements Enlarger]: https://github.com/shedaniel/advancements-enlarger
 [curseforge:Advancements Enlarger]: https://www.curseforge.com/minecraft/mc-mods/advancements-enlarger/files
@@ -151,3 +153,11 @@ See [key](#key) for information on what i mean in the version columns.
 
 [repo:Void Fog]: https://github.com/Sollace/Void-Fog
 [github:Void Fog]: https://github.com/Sollace/Void-Fog/releases
+
+<!-- RESOURCE PACKS -->
+
+[github:Love & Tolerance]: https://github.com/Love-and-Tolerance/Love-and-Tolerance/releases
+[repo:Love & Tolerance]: https://github.com/Love-and-Tolerance/Love-and-Tolerance
+
+[github:turtlelang]: https://github.com/autumnblazey/turtlelang/releases
+[repo:turtlelang]: https://github.com/autumnblazey/turtlelang
