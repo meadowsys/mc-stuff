@@ -45,8 +45,8 @@ See [key](#key) for information on what i mean in the version columns.
 
 | pack name        | description                                                                                        | MC 1.16.5 | MC 1.17.x | MC 1.18    | official download link            | repo link                                                  |
 | ---------------- | -------------------------------------------------------------------------------------------------- | --------- | --------- | ---------- | --------------------------------- | ---------------------------------------------------------- |
-| Love & Tolerance | resource pack inspired by the visual art style and design of _My Little Pony: Friendship is Magic_ | yes       | yes       | partial(?) | [github][github:Love & Tolerance] | [github][repo:Love & Tolerance] |
-| turtlelang       | provides a ingame language called turtlelang, explore at your own risk!                            | yes       | partial   | partial(?) | [github][github:turtlelang]       | [github][repo:turtlelang] |
+| Love & Tolerance | resource pack inspired by the visual art style and design of _My Little Pony: Friendship is Magic_ | yes       | yes       | partial(?) | [github][github:Love & Tolerance] | [github][repo:Love & Tolerance]                            |
+| turtlelang       | provides a ingame language called turtlelang, explore at your own risk!                            | yes       | partial   | partial(?) | [github][github:turtlelang]       | [github][repo:turtlelang]                                  |
 
 ## key
 
