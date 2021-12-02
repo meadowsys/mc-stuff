@@ -43,10 +43,10 @@ See [key](#key) for information on what i mean in the version columns.
 
 ## resource packs
 
-| pack name        | description                                                                                        | download link                                                               | repo link                                                  | MC 1.16.5 | MC 1.17.x | MC 1.18 |
-| ---------------- | -------------------------------------------------------------------------------------------------- | --------------------------------------------------------------------------- | ---------------------------------------------------------- | --------- | --------- | ------- |
-| Love & Tolerance | resource pack inspired by the visual art style and design of _My Little Pony: Friendship is Magic_ | [github](https://github.com/Love-and-Tolerance/Love-and-Tolerance/releases) | <https://github.com/Love-and-Tolerance/Love-and-Tolerance> | a         | a         | a       |
-| turtlelang       | provides a ingame language called turtlelang, explore at your own risk!                            | [github](https://github.com/autumnblazey/turtlelang/releases)               | <https://github.com/autumnblazey/turtlelang>               | a         | a         | a       |
+| pack name        | description                                                                                        | MC 1.16.5 | MC 1.17.x | MC 1.18    | official download link                                                      | repo link                                                  |
+| ---------------- | -------------------------------------------------------------------------------------------------- | --------- | --------- | ---------- | --------------------------------------------------------------------------- | ---------------------------------------------------------- |
+| Love & Tolerance | resource pack inspired by the visual art style and design of _My Little Pony: Friendship is Magic_ | yes       | yes       | partial(?) | [github](https://github.com/Love-and-Tolerance/Love-and-Tolerance/releases) | <https://github.com/Love-and-Tolerance/Love-and-Tolerance> |
+| turtlelang       | provides a ingame language called turtlelang, explore at your own risk!                            | yes       | partial   | partial(?) | [github](https://github.com/autumnblazey/turtlelang/releases)               | <https://github.com/autumnblazey/turtlelang>               |
 
 ## key
 
@@ -55,6 +55,7 @@ See [key](#key) for information on what i mean in the version columns.
 | yes         | stable version is released for this version                                                      |
 | no          | not released for this version                                                                    |
 | maybe       | released for a different version of MC, but *might* be compatible                                |
+| partial     | (resource packs) released for a different version of MC, but still at least partially compatile  |
 | dev         | unreleased version available on development trunk                                                |
 | dev (maybe) | unreleased version available on development trunk, but for a different version of MC (see maybe) |
 | unstable    | prerelease version is available                                                                  |
