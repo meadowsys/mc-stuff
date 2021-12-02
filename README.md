@@ -52,13 +52,13 @@ See [key](#key) for information on what i mean in the version columns.
 
 | thing       | meaning                                                                                          |
 | ----------- | ------------------------------------------------------------------------------------------------ |
-| yes         | stable version is released for this version                                                      |
-| no          | not released for this version                                                                    |
-| maybe       | released for a different version of MC, but *might* be compatible                                |
+| yes         | stable version of the mod is released for this version of MC                                     |
+| no          | not released for this version of MC                                                              |
+| maybe       | released for a different version of MC, but still *might* be compatible with this version        |
 | partial     | (resource packs) released for a different version of MC, but still at least partially compatile  |
 | dev         | unreleased version available on development trunk                                                |
 | dev (maybe) | unreleased version available on development trunk, but for a different version of MC (see maybe) |
-| unstable    | prerelease version is available                                                                  |
+| unstable    | prerelease version is released                                                                   |
 | ?           | I have not tested it *yet*, cannot personally verify that it works                               |
 
 <!-- download sources in order of preference. github, website, modrinth, curseforge -->
