@@ -13,7 +13,7 @@ See [key](#key) for information on what i mean in the version columns.
 | Advancements Enlarger | client               | makes the advancements menu bigger (vanilla is a smol fixed size)                             | yes       | yes       | no                                  | [curseforge][Advancements Enlarger:curseforge]                     | [github][Advancements Enlarger:repo] |
 | Chat up!              | client               | raises the chat up by 10 pixels to improve visibility of armor hunches                        | yes       | yes       | yes(?)                              | [github][Chat up!:github]                                          | [github][Chat up!:repo]              |
 | Colormatic            | client               | implements MCPatcher custom colors mod, compatible with Optifine custom colors                | yes       | yes       | dev (maybe)                         | [github][Colormatic:github], [modrinth][Colormatic:modrinth]       | [github][Colormatic:repo]            |
-| Fabric API            | client and/or server | library mod                                                                                   | yes       | yes       | yes(?)                              | [github][Fabric API:github], [modrinth][Fabric API:modrinth]       | [github][Fabric API:repo]            |
+| Fabric API            | client and/or server | library mod                                                                                   | yes       | yes       | [yes(?)][Fabric API:build-1.18]     | [github][Fabric API:github], [modrinth][Fabric API:modrinth]       | [github][Fabric API:repo]            |
 | Fabric Carpet         | client and/or server | technical control utility mod                                                                 | yes       | yes       | yes(?)                              | [github][Fabric Carpet:github]                                     | [github][Fabric Carpet:repo]         |
 | fabrishot             | client               | take high-resolution screenshots                                                              | yes       | yes       | yes(?)                              | [modrinth][fabrishot:modrinth]                                     | [github][fabrishot:repo]             |
 | HDSkins               | client               | high resolution skins                                                                         | yes       | yes       | [yes(?)][HDSkins:build-1.18]        | [github][HDSkins:github], [website][HDSkins:website]               | [github][HDSkins:repo]               |
@@ -78,6 +78,7 @@ See [key](#key) for information on what i mean in the version columns.
 [Fabric API:repo]: https://github.com/FabricMC/fabric
 [Fabric API:github]: https://github.com/FabricMC/fabric/releases
 [Fabric API:modrinth]: https://modrinth.com/mod/fabric-api
+[Fabric API:build-1.18]: mods/1.18/1.18-fabric-api-0.44.0.jar
 
 [Fabric Carpet:repo]: https://github.com/gnembon/fabric-carpet/
 [Fabric Carpet:github]: https://github.com/gnembon/fabric-carpet/releases
