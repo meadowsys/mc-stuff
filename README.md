@@ -25,7 +25,7 @@ See [key](#key) for information on what i mean in the version columns.
 | malilib               | client and/or server | library mod                                                                                   | yes       | yes       | yes(?)                           | [curseforge][malilib:curseforge]                                   | [github][malilib:repo]               |
 | MineLittlePony        | client               | turns players and mobs into ponies                                                            | yes       | yes       | [yes][MineLittlePony:build-1.18] | [github][MineLittlePony:github], [website][MineLittlePony:website] | [github][MineLittlePony:repo]        |
 | MiniHUD               | client               | mini heads-up display mod                                                                     | yes       | yes       | no                               | [curseforge][MiniHUD:curseforge]                                   | [github][MiniHUD:repo]               |
-| ModMenu               | client               | adds a menu for viewing a list of installed mods                                              | yes       | yes       | maybe(?)                         | [github][ModMenu:github], [modrinth][ModMenu:modrinth]             | [github][ModMenu:repo]               |
+| ModMenu               | client               | adds a menu for viewing a list of installed mods                                              | yes       | yes       | [maybe(?)][ModMenu:build-1.18]   | [github][ModMenu:github], [modrinth][ModMenu:modrinth]             | [github][ModMenu:repo]               |
 | Ok Zoomer             | client               | highly configurable zoom key                                                                  | yes       | yes       | no                               | [github][Ok Zoomer:github], [modrinth][Ok Zoomer:modrinth]         | [github][Ok Zoomer:repo]             |
 | Physics Mod           | client               | it does physics                                                                               | yes       | yes       | yes(?)                           | [website][Physics Mod:website]                                     | closed source >:c                    |
 | Phosphor              | client and/or server | lighting engine optimisation mod                                                              | yes       | yes(?)    | no                               | [github][Phosphor:github]                                          | [github][Phosphor:repo]              |
@@ -52,7 +52,7 @@ See [key](#key) for information on what i mean in the version columns.
 
 | thing       | meaning                                                                                          |
 | ----------- | ------------------------------------------------------------------------------------------------ |
-| yes         | stable version of the mod is released for this version of MC                                     |
+| yes         | stable version of the mod exists and works for this version of MC (even if not built for it)     |
 | no          | not released for this version of MC                                                              |
 | maybe       | released for a different version of MC, but still *might* be compatible with this version        |
 | partial     | (resource packs) released for a different version of MC, but still at least partially compatile  |
@@ -122,6 +122,7 @@ See [key](#key) for information on what i mean in the version columns.
 [ModMenu:repo]: https://github.com/TerraformersMC/ModMenu
 [ModMenu:github]: https://github.com/TerraformersMC/ModMenu/releases
 [ModMenu:modrinth]: https://modrinth.com/mod/modmenu
+[ModMenu:build-1.18]: mods/1.18/1.18-modmenu-3.0.0.jar
 
 [Ok Zoomer:repo]: https://github.com/joaoh1/OkZoomer/
 [Ok Zoomer:github]: https://github.com/EnnuiL/OkZoomer/releases
