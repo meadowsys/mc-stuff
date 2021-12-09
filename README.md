@@ -145,6 +145,9 @@ See [key](#key) for information on what i mean in the version columns.
 [Shulker Box Tooltip:repo]: https://github.com/MisterPeModder/ShulkerBoxTooltip
 [Shulker Box Tooltip:github]: https://github.com/MisterPeModder/ShulkerBoxTooltip/releases
 
+[Simple Voice Chat:repo]: https://github.com/henkelmax/simple-voice-chat
+[Simple Voice Chat:curseforge]: https://www.curseforge.com/minecraft/mc-mods/simple-voice-chat/files
+
 [Sodium:repo]: https://github.com/CaffeineMC/sodium-fabric
 [Sodium:github]: https://github.com/CaffeineMC/sodium-fabric/releases
 [Sodium:modrinth]: https://modrinth.com/mod/sodium
@@ -154,9 +157,6 @@ See [key](#key) for information on what i mean in the version columns.
 
 [Tweakeroo:repo]: https://github.com/maruohon/tweakeroo
 [Tweakeroo:curseforge]: https://www.curseforge.com/minecraft/mc-mods/tweakeroo/files
-
-[Simple Voice Chat:repo]: https://github.com/henkelmax/simple-voice-chat
-[Simple Voice Chat:curseforge]: https://www.curseforge.com/minecraft/mc-mods/simple-voice-chat/files
 
 [Void Fog:repo]: https://github.com/Sollace/Void-Fog
 [Void Fog:github]: https://github.com/Sollace/Void-Fog/releases
