@@ -28,7 +28,7 @@ See [key](#key) for information on what i mean in the version columns.
 | ModMenu               | client               | adds a menu for viewing a list of installed mods                                              | yes       | yes       | [yes][ModMenu:build-1.18]              | [github][ModMenu:github], [modrinth][ModMenu:modrinth]                                                  | [github][ModMenu:repo]               |
 | Ok Zoomer             | client               | highly configurable zoom key                                                                  | yes       | yes       | no                                     | [github][Ok Zoomer:github], [modrinth][Ok Zoomer:modrinth]                                              | [github][Ok Zoomer:repo]             |
 | Phosphor              | client and/or server | lighting engine optimisation mod                                                              | yes       | yes(?)    | no                                     | [github][Phosphor:github]                                                                               | [github][Phosphor:repo]              |
-| Presence Footsteps    | client               | overcomplicated footsteps enhancement mod                                                     | yes       | yes       | yes(?)                                 | [github][Presence Footsteps:github]                                                                     | [github][Presence Footsteps:repo]    |
+| Presence Footsteps    | client               | overcomplicated footsteps enhancement mod                                                     | yes       | yes       | [yes][Presence Footsteps:build-1.18]   | [github][Presence Footsteps:github]                                                                     | [github][Presence Footsteps:repo]    |
 | ReplayMod             | client               | record game sessions and replay them afterwards from any perspective                          | yes       | yes       | no                                     | [website][ReplayMod:website]                                                                            | [github][ReplayMod:repo]             |
 | Shulker Box Tooltip   | client               | see a preview window of shulker box contents without placing it down                          | yes       | yes       | maybe(?)                               | [github][Shulker Box Tooltip:github]                                                                    | [github][Shulker Box Tooltip:repo]   |
 | Simple Voice Chat     | client and/or server | adds a proximity voice chat                                                                   | yes       | yes       | [yes(?)][Simple Voice Chat:build-1.18] | [curseforge][Simple Voice Chat:curseforge]                                                              | [github][Simple Voice Chat:repo]     |
@@ -139,6 +139,7 @@ See [key](#key) for information on what i mean in the version columns.
 
 [Presence Footsteps:repo]: https://github.com/sollace/presence-footsteps
 [Presence Footsteps:github]: https://github.com/Sollace/Presence-Footsteps/releases
+[Presence Footsteps:build-1.18]: mods/1.18/1.18-presence-footsteps-1.4.0.jar
 
 [ReplayMod:repo]: https://github.com/ReplayMod/ReplayMod
 [ReplayMod:website]: https://www.replaymod.com/download/
