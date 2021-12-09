@@ -53,7 +53,7 @@ See [key](#key) for information on what i mean in the version columns.
 
 | thing       | meaning                                                                                          |
 | ----------- | ------------------------------------------------------------------------------------------------ |
-| yes         | stable version of the mod exists and works for this version of MC (even if not built for it)     |
+| yes         | stable version of the mod *exists* and works for this version of MC (even if not built for it)   |
 | no          | not released for this version of MC                                                              |
 | maybe       | released for a different version of MC, but still *might* be compatible with this version        |
 | partial     | (resource packs) released for a different version of MC, but still at least partially compatile  |
