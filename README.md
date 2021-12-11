@@ -26,7 +26,7 @@ See [key](#key) for information on what i mean in the version columns.
 | MineLittlePony        | client               | turns players and mobs into ponies                                                            | yes       | yes       | [yes][MineLittlePony:build-1.18]       | [github][MineLittlePony:github], [website][MineLittlePony:website], [modrinth][MineLittlePony:modrinth] | [github][MineLittlePony:repo]        |
 | MiniHUD               | client               | mini heads-up display mod                                                                     | yes       | yes       | no                                     | [curseforge][MiniHUD:curseforge]                                                                        | [github][MiniHUD:repo]               |
 | ModMenu               | client               | adds a menu for viewing a list of installed mods                                              | yes       | yes       | [yes][ModMenu:build-1.18]              | [github][ModMenu:github], [modrinth][ModMenu:modrinth]                                                  | [github][ModMenu:repo]               |
-| Ok Zoomer             | client               | highly configurable zoom key                                                                  | yes       | yes       | no                                     | [github][Ok Zoomer:github], [modrinth][Ok Zoomer:modrinth]                                              | [github][Ok Zoomer:repo]             |
+| Ok Zoomer             | client               | highly configurable zoom key                                                                  | yes       | yes       | [yes][Ok Zoomer:build-1.18]            | [github][Ok Zoomer:github], [modrinth][Ok Zoomer:modrinth]                                              | [github][Ok Zoomer:repo]             |
 | Phosphor              | client and/or server | lighting engine optimisation mod                                                              | yes       | yes(?)    | no                                     | [github][Phosphor:github]                                                                               | [github][Phosphor:repo]              |
 | Presence Footsteps    | client               | overcomplicated footsteps enhancement mod                                                     | yes       | yes       | [yes][Presence Footsteps:build-1.18]   | [github][Presence Footsteps:github]                                                                     | [github][Presence Footsteps:repo]    |
 | ReplayMod             | client               | record game sessions and replay them afterwards from any perspective                          | yes       | yes       | no                                     | [website][ReplayMod:website]                                                                            | [github][ReplayMod:repo]             |
@@ -131,6 +131,7 @@ See [key](#key) for information on what i mean in the version columns.
 [Ok Zoomer:repo]: https://github.com/joaoh1/OkZoomer/
 [Ok Zoomer:github]: https://github.com/EnnuiL/OkZoomer/releases
 [Ok Zoomer:modrinth]: https://modrinth.com/mod/ok-zoomer
+[Ok Zoomer:build-1.18]: mods/1.18/1.18-ok-zoomer-5.0.0-beta.3.jar
 
 [Physics Mod:website]: https://minecraftphysicsmod.com/
 
