@@ -4,7 +4,7 @@ A list of minecraft mods and resource packs that I use when I play minecraft.
 
 ## mods
 
-I use and highly recommend the [fabric modding platform](https://fabricmc.net/). These mods are all available for fabric. All of these mods are "vanilla compatible", meaning you can join vanilla servers with them installed no problem. The ones that change things in non vanilla compatible ways will disable themselves gracefully while you are playing on a vanilla server.
+I use and highly recommend the [fabric modding platform](https://fabricmc.net/). These mods are all available for fabric. All of these mods are "vanilla compatible", meaning you can join vanilla servers with them installed no problem. The ones that change things in non vanilla compatible ways (such as Big Pony, which can change your hitbox, among other things) will disable themselves gracefully while you are playing on a vanilla server.
 
 See [key](#key) for information on what i mean in the version columns.
 
