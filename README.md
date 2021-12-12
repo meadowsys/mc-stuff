@@ -13,9 +13,9 @@ See [key](#key) for information on what i mean in the version columns.
 | Advancements Enlarger | client               | makes the advancements menu bigger (vanilla is a smol fixed size)                             | yes       | yes       | [yes][Advancements Enlarger:build-1.18]         | [curseforge][Advancements Enlarger:curseforge]                                                          | [github][Advancements Enlarger:repo] |
 | Big Pony              | client and/or server | customise the way you appear in the world, including model scaling and camera position        | yes(?)    | yes(?)    | [yes][Big Pony:build-1.18]                      | [github][Big Pony:github]                                                                               | [github][Big Pony:repo]              |
 | Chat up!              | client               | raises the chat up by 10 pixels to improve visibility of armor hunches                        | yes       | yes       | [yes (2.0.0)][Chat up!:build-1.18]              | [github][Chat up!:github]                                                                               | [github][Chat up!:repo]              |
+| Carpet Mod            | client and/or server | technical control utility mod                                                                 | yes       | yes       | yes(?)                                          | [github][Carpet Mod:github]                                                                             | [github][Carpet Mod:repo]            |
 | Colormatic            | client               | implements MCPatcher custom colors mod, compatible with Optifine custom colors                | yes       | yes       | dev (maybe)                                     | [github][Colormatic:github], [modrinth][Colormatic:modrinth]                                            | [github][Colormatic:repo]            |
 | Fabric API            | client and/or server | library mod                                                                                   | yes       | yes       | [yes (0.44.0)][Fabric API:build-1.18]           | [github][Fabric API:github], [modrinth][Fabric API:modrinth]                                            | [github][Fabric API:repo]            |
-| Fabric Carpet         | client and/or server | technical control utility mod                                                                 | yes       | yes       | yes(?)                                          | [github][Fabric Carpet:github]                                                                          | [github][Fabric Carpet:repo]         |
 | fabrishot             | client               | take high-resolution screenshots                                                              | yes       | yes       | yes(?)                                          | [modrinth][fabrishot:modrinth]                                                                          | [github][fabrishot:repo]             |
 | HDSkins               | client               | high resolution skins                                                                         | yes       | yes       | [yes (6.5.0)][HDSkins:build-1.18]               | [github][HDSkins:github], [website][HDSkins:website]                                                    | [github][HDSkins:repo]               |
 | Hydrogen              | client and/or server | things of which are too dangerous to put in Lithium                                           | yes       | yes       | no                                              | [github][Hydrogen:github]                                                                               | [github][Hydrogen:repo]              |
@@ -88,8 +88,8 @@ See [key](#key) for information on what i mean in the version columns.
 [Fabric API:modrinth]: https://modrinth.com/mod/fabric-api
 [Fabric API:build-1.18]: mods/1.18/1.18-fabric-api-0.44.0.jar
 
-[Fabric Carpet:repo]: https://github.com/gnembon/fabric-carpet/
-[Fabric Carpet:github]: https://github.com/gnembon/fabric-carpet/releases
+[Carpet Mod:repo]: https://github.com/gnembon/fabric-carpet/
+[Carpet Mod:github]: https://github.com/gnembon/fabric-carpet/releases
 
 [fabrishot:repo]: https://github.com/ramidzkh/fabrishot
 [fabrishot:modrinth]: https://modrinth.com/mod/fabrishot
