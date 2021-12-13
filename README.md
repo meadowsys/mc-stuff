@@ -11,20 +11,20 @@ See [key](#key) for information on what i mean in the version columns.
 | mod name              | environment          | description                                                                                   | MC 1.16.5 | MC 1.17.1 | MC 1.18.1                                       | official download link                                                                                  | repo link                            |
 | --------------------- | -------------------- | --------------------------------------------------------------------------------------------- | --------- | --------- | ----------------------------------------------- | ------------------------------------------------------------------------------------------------------- | ------------------------------------ |
 | Advancements Enlarger | client               | makes the advancements menu bigger (vanilla is a smol fixed size)                             | yes       | yes       | [yes (0.2.4)][Advancements Enlarger:build-1.18] | [curseforge][Advancements Enlarger:curseforge]                                                          | [github][Advancements Enlarger:repo] |
-| Big Pony              | client and/or server | customise the way you appear in the world, including model scaling and camera position        | yes(?)    | yes(?)    | [yes (1.6.0)][Big Pony:build-1.18]              | [github][Big Pony:github]                                                                               | [github][Big Pony:repo]              |
+| Big Pony              | client and/or server | customise the way you appear in the world, including model scaling and camera position        | yes(?)    | yes(?)    | [yes (1.6.1)][Big Pony:build-1.18]              | [github][Big Pony:github]                                                                               | [github][Big Pony:repo]              |
 | Chat up!              | client               | raises the chat up by 10 pixels to improve visibility of armor hunches                        | yes       | yes       | [yes (2.0.0)][Chat up!:build-1.18]              | [github][Chat up!:github]                                                                               | [github][Chat up!:repo]              |
 | Carpet Mod            | client and/or server | technical control utility mod                                                                 | yes       | yes       | [yes (1.4.56)][Carpet Mod:build-1.18]           | [github][Carpet Mod:github]                                                                             | [github][Carpet Mod:repo]            |
 | Colormatic            | client               | implements MCPatcher custom colors mod, compatible with Optifine custom colors                | yes       | yes       | dev (maybe)                                     | [github][Colormatic:github], [modrinth][Colormatic:modrinth]                                            | [github][Colormatic:repo]            |
 | Fabric API            | client and/or server | library mod                                                                                   | yes       | yes       | [yes (0.44.0)][Fabric API:build-1.18]           | [github][Fabric API:github], [modrinth][Fabric API:modrinth]                                            | [github][Fabric API:repo]            |
 | fabrishot             | client               | take high-resolution screenshots                                                              | yes       | yes       | yes(?)                                          | [modrinth][fabrishot:modrinth]                                                                          | [github][fabrishot:repo]             |
-| HDSkins               | client               | high resolution skins                                                                         | yes       | yes       | [yes (6.5.0)][HDSkins:build-1.18]               | [github][HDSkins:github], [website][HDSkins:website]                                                    | [github][HDSkins:repo]               |
+| HDSkins               | client               | high resolution skins                                                                         | yes       | yes       | [yes (6.5.1)][HDSkins:build-1.18]               | [github][HDSkins:github], [website][HDSkins:website]                                                    | [github][HDSkins:repo]               |
 | Hydrogen              | client and/or server | things of which are too "dirty" to put in Lithium                                             | yes       | yes       | no                                              | [github][Hydrogen:github]                                                                               | [github][Hydrogen:repo]              |
 | Indium                | client               | addon for Sodium that implements Fabric Rendering API (does nothing on its own)               | yes       | yes       | unstable(?)                                     | [github][Indium:github], [modrinth][Indium:modrinth]                                                    | [github][Indium:repo]                |
 | LambDynamicLights     | client               | dynamic lights mod                                                                            | yes       | yes       | [yes (2.1.0)][LambDynamicLights:build-1.18]     | [github][LambDynamicLights:github]                                                                      | [github][LambDynamicLights:repo]     |
 | Litematica            | client               | schematic mod                                                                                 | yes       | yes       | no                                              | [curseforge][Litematica:curseforge]                                                                     | [github][Litematica:repo]            |
 | Lithium               | client and/or server | general performance optimisation mod that is designed to not break things                     | yes       | yes       | no                                              | [github][Lithium:github], [modrinth][Lithium:modrinth]                                                  | [github][Lithium:repo]               |
 | malilib               | client and/or server | library mod                                                                                   | yes       | yes       | [yes (0.10.0-dev.26)][malilib:build-1.18]       | [curseforge][malilib:curseforge]                                                                        | [github][malilib:repo]               |
-| MineLittlePony        | client               | turns players and mobs into ponies                                                            | yes       | yes       | [yes (4.4.0)][MineLittlePony:build-1.18]        | [github][MineLittlePony:github], [website][MineLittlePony:website], [modrinth][MineLittlePony:modrinth] | [github][MineLittlePony:repo]        |
+| MineLittlePony        | client               | turns players and mobs into ponies                                                            | yes       | yes       | [yes (4.4.1)][MineLittlePony:build-1.18]        | [github][MineLittlePony:github], [website][MineLittlePony:website], [modrinth][MineLittlePony:modrinth] | [github][MineLittlePony:repo]        |
 | MiniHUD               | client               | mini heads-up display mod                                                                     | yes       | yes       | no                                              | [curseforge][MiniHUD:curseforge]                                                                        | [github][MiniHUD:repo]               |
 | ModMenu               | client               | adds a menu for viewing a list of installed mods                                              | yes       | yes       | [yes (3.0.0)][ModMenu:build-1.18]               | [github][ModMenu:github], [modrinth][ModMenu:modrinth]                                                  | [github][ModMenu:repo]               |
 | Ok Zoomer             | client               | highly configurable zoom key                                                                  | yes       | yes       | [yes (5.0.0-beta.3)][Ok Zoomer:build-1.18]      | [github][Ok Zoomer:github], [modrinth][Ok Zoomer:modrinth]                                              | [github][Ok Zoomer:repo]             |
@@ -73,7 +73,7 @@ See [key](#key) for information on what i mean in the version columns.
 
 [Big Pony:repo]: https://github.com/minelittlepony/bigPony
 [Big Pony:github]: https://github.com/MineLittlePony/BigPony/releases
-[Big Pony:build-1.18]: mods/1.18/1.18-bigpony-1.6.0.jar
+[Big Pony:build-1.18]: mods/1.18/1.18-bigpony-1.6.1.jar
 
 [Chat up!:repo]: https://github.com/gnembon/chat-up
 [Chat up!:github]: https://github.com/gnembon/chat-up/releases
@@ -98,7 +98,7 @@ See [key](#key) for information on what i mean in the version columns.
 [HDSkins:repo]: https://github.com/minelittlepony/hdskins/
 [HDSkins:github]: https://github.com/MineLittlePony/HDSkins/releases
 [HDSkins:website]: https://minelittlepony-mod.com/
-[HDSkins:build-1.18]: mods/1.18/1.18-hdskins-6.5.0.jar
+[HDSkins:build-1.18]: mods/1.18/1.18-hdskins-6.5.1.jar
 
 [Hydrogen:repo]: https://github.com/CaffeineMC/hydrogen-fabric
 [Hydrogen:github]: https://github.com/CaffeineMC/hydrogen-fabric/releases
@@ -126,7 +126,7 @@ See [key](#key) for information on what i mean in the version columns.
 [MineLittlePony:github]: https://github.com/MineLittlePony/MineLittlePony/releases
 [MineLittlePony:website]: https://minelittlepony-mod.com/
 [MineLittlePony:modrinth]: https://modrinth.com/mod/mine-little-pony
-[MineLittlePony:build-1.18]: mods/1.18/1.18-minelittlepony-4.4.0.jar
+[MineLittlePony:build-1.18]: mods/1.18/1.18-minelittlepony-4.4.1.jar
 
 [MiniHUD:repo]: https://github.com/maruohon/minihud
 [MiniHUD:curseforge]: https://www.curseforge.com/minecraft/mc-mods/minihud/files
