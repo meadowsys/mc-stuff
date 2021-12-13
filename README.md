@@ -36,7 +36,7 @@ See [key](#key) for information on what i mean in the version columns.
 | Sodium                | client and/or server | optimisation mod that improves frame rates, reduces micro-stutter, and fixes graphical issues | yes       | yes       | unstable(?)                                     | [github][Sodium:github], [modrinth][Sodium:modrinth]                                                    | [github][Sodium:repo]                |
 | TellMe                | client and/or server | small informational mod, provides technical type information about the game                   | yes       | yes       | no                                              | [curseforge][TellMe:curseforge]                                                                         | [github][TellMe:repo]                |
 | Tweakeroo             | client               | adds a selection of miscellaneous, configurable, client-side tweaks to the game               | yes       | yes       | no                                              | [curseforge][Tweakeroo:curseforge]                                                                      | [github][Tweakeroo:repo]             |
-| Void Fog              | client               | brings back the void fog                                                                      | yes       | yes       | yes(?)                                          | [github][Void Fog:github]                                                                               | [github][Void Fog:repo]              |
+| Void Fog              | client               | brings back the void fog                                                                      | yes       | yes       | [yes (2.6.1)][Void Fog:build-1.18]              | [github][Void Fog:github]                                                                               | [github][Void Fog:repo]              |
 
 <!-- | Physics Mod           | client               | it does physics                                                                               | yes       | yes       | yes(?)                           | [website][Physics Mod:website]                                     | closed source >:c                    | -->
 
@@ -173,6 +173,7 @@ See [key](#key) for information on what i mean in the version columns.
 
 [Void Fog:repo]: https://github.com/Sollace/Void-Fog
 [Void Fog:github]: https://github.com/Sollace/Void-Fog/releases
+[Void Fog:build-1.18]: mods/1.18/1.18-void-fog-2.6.1.jar
 
 <!-- RESOURCE PACKS -->
 
