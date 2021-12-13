@@ -11,7 +11,7 @@ See [key](#key) for information on what i mean in the version columns.
 | mod name              | environment          | description                                                                                   | MC 1.16.5 | MC 1.17.1 | MC 1.18.1                                       | official download link                                                                                  | repo link                            |
 | --------------------- | -------------------- | --------------------------------------------------------------------------------------------- | --------- | --------- | ----------------------------------------------- | ------------------------------------------------------------------------------------------------------- | ------------------------------------ |
 | Advancements Enlarger | client               | makes the advancements menu bigger (vanilla is a smol fixed size)                             | yes       | yes       | [yes (0.2.4)][Advancements Enlarger:build-1.18] | [curseforge][Advancements Enlarger:curseforge]                                                          | [github][Advancements Enlarger:repo] |
-| Big Pony              | client and/or server | customise the way you appear in the world, including model scaling and camera position        | yes(?)    | yes(?)    | [yes (1.6.1)][Big Pony:build-1.18]              | [github][Big Pony:github]                                                                               | [github][Big Pony:repo]              |
+| Big Pony              | client and/or server | customise the way you appear in the world, including model scaling and camera position        | yes(?)    | yes(?)    | [yes (1.6.0)][Big Pony:build-1.18]              | [github][Big Pony:github]                                                                               | [github][Big Pony:repo]              |
 | Chat up!              | client               | raises the chat up by 10 pixels to improve visibility of armor hunches                        | yes       | yes       | [yes (2.0.0)][Chat up!:build-1.18]              | [github][Chat up!:github]                                                                               | [github][Chat up!:repo]              |
 | Carpet Mod            | client and/or server | technical control utility mod                                                                 | yes       | yes       | [yes (1.4.56)][Carpet Mod:build-1.18]           | [github][Carpet Mod:github]                                                                             | [github][Carpet Mod:repo]            |
 | Colormatic            | client               | implements MCPatcher custom colors mod, compatible with Optifine custom colors                | yes       | yes       | dev (maybe)                                     | [github][Colormatic:github], [modrinth][Colormatic:modrinth]                                            | [github][Colormatic:repo]            |
@@ -73,7 +73,7 @@ See [key](#key) for information on what i mean in the version columns.
 
 [Big Pony:repo]: https://github.com/minelittlepony/bigPony
 [Big Pony:github]: https://github.com/MineLittlePony/BigPony/releases
-[Big Pony:build-1.18]: mods/1.18/1.18-bigpony-1.6.1.jar
+[Big Pony:build-1.18]: mods/1.18/1.18-bigpony-1.6.0.jar
 
 [Chat up!:repo]: https://github.com/gnembon/chat-up
 [Chat up!:github]: https://github.com/gnembon/chat-up/releases
