@@ -83,6 +83,10 @@ See [key](#key) for information on what i mean in the version columns.
 [Chat up!:github]: https://github.com/gnembon/chat-up/releases
 [Chat up!:build-1.18]: mods/1.18/1.18-chat-up-2.0.0.jar
 
+[Carpet Mod:repo]: https://github.com/gnembon/fabric-carpet/
+[Carpet Mod:github]: https://github.com/gnembon/fabric-carpet/releases
+[Carpet Mod:build-1.18]: mods/1.18/1.18-carpet-mod-1.4.56.jar
+
 [Cloth Config:repo]: https://github.com/shedaniel/cloth-config
 [Cloth Config:curseforge]: https://www.curseforge.com/minecraft/mc-mods/cloth-config/files
 
@@ -97,10 +101,6 @@ See [key](#key) for information on what i mean in the version columns.
 [Fabric API:github]: https://github.com/FabricMC/fabric/releases
 [Fabric API:modrinth]: https://modrinth.com/mod/fabric-api
 [Fabric API:build-1.18]: mods/1.18/1.18-fabric-api-0.44.0.jar
-
-[Carpet Mod:repo]: https://github.com/gnembon/fabric-carpet/
-[Carpet Mod:github]: https://github.com/gnembon/fabric-carpet/releases
-[Carpet Mod:build-1.18]: mods/1.18/1.18-carpet-mod-1.4.56.jar
 
 [fabrishot:repo]: https://github.com/ramidzkh/fabrishot
 [fabrishot:modrinth]: https://modrinth.com/mod/fabrishot
