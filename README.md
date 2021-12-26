@@ -57,17 +57,17 @@ See [key](#key) for information on what i mean in the version columns.
 
 ## key
 
-| thing       | meaning                                                                                          |
-| ----------- | ------------------------------------------------------------------------------------------------ |
-| yes         | stable version of the mod *exists* and works for this version of MC (even if not built for it)   |
-| no          | not released for this version of MC                                                              |
-| maybe       | released for a different version of MC, but still *might* be compatible with this version        |
-| partial     | (resource packs) released for a different version of MC, but still at least partially compatile  |
-| dev         | unreleased version available on development trunk                                                |
-| dev (maybe) | unreleased version available on development trunk, but for a different version of MC (see maybe) |
-| unstable    | prerelease version is released                                                                   |
-| unknown     | i don't know (and i didn't check)                                                                |
-| ?           | I have not tested it *yet*, cannot personally verify that it works                               |
+| thing       | meaning                                                                                                             |
+| ----------- | ------------------------------------------------------------------------------------------------------------------- |
+| yes         | stable version of the mod *exists* and works for this version of MC (even if not built for it) as far as i can tell |
+| no          | not released for this version of MC                                                                                 |
+| maybe       | released for a different version of MC, but still *might* be compatible with this version                           |
+| partial     | (resource packs) released for a different version of MC, but still at least partially compatile                     |
+| dev         | unreleased version available on development trunk                                                                   |
+| dev (maybe) | unreleased version available on development trunk, but for a different version of MC (see maybe)                    |
+| unstable    | prerelease version is released                                                                                      |
+| unknown     | i don't know (and i didn't check)                                                                                   |
+| ?           | I have not tested it *yet*, cannot personally verify that it works                                                  |
 
 <!-- download sources in order of preference. github, website, modrinth, curseforge -->
 
