@@ -11,6 +11,7 @@ See [key](#key) for information on what I mean in the version columns.
 | mod name                 | environment          | description                                                                                           | MC 1.17.1 | MC 1.18.1                                       | official download link                                                                                  | repo link                               |
 | ------------------------ | -------------------- | ----------------------------------------------------------------------------------------------------- | --------- | ----------------------------------------------- | ------------------------------------------------------------------------------------------------------- | --------------------------------------- |
 | Advancements Enlarger    | client               | makes the advancements menu bigger (vanilla is a smol fixed size)                                     | yes       | [yes (0.2.4)][Advancements Enlarger:build-1.18] | [curseforge][Advancements Enlarger:curseforge]                                                          | [github][Advancements Enlarger:repo]    |
+| Architectury API         | client and/or server | multiplatform (fabric/forge) library mod                                                              | unknown   | yes                                             | [curseforge][Architectury API:curseforge]                                                               | [github][Architectury API:repo]         |
 | Big Pony                 | client and/or server | customise the way you appear in the world, including model scaling and camera position                | yes(?)    | [yes (1.6.0)][Big Pony:build-1.18]              | [github][Big Pony:github]                                                                               | [github][Big Pony:repo]                 |
 | Carpet Mod               | client and/or server | technical control utility mod                                                                         | yes       | [yes (1.4.56)][Carpet Mod:build-1.18]           | [github][Carpet Mod:github]                                                                             | [github][Carpet Mod:repo]               |
 | Chat up!                 | client               | raises the chat up by 10 pixels to improve visibility of armor hunches                                | yes       | [yes (2.0.0)][Chat up!:build-1.18]              | [github][Chat up!:github]                                                                               | [github][Chat up!:repo]                 |
@@ -31,10 +32,14 @@ See [key](#key) for information on what I mean in the version columns.
 | MineLittlePony           | client               | turns players and mobs into ponies                                                                    | yes       | [yes (4.4.1)][MineLittlePony:build-1.18]        | [github][MineLittlePony:github], [website][MineLittlePony:website], [modrinth][MineLittlePony:modrinth] | [github][MineLittlePony:repo]           |
 | MiniHUD                  | client               | mini heads-up display mod                                                                             | yes       | no                                              | [curseforge][MiniHUD:curseforge]                                                                        | [github][MiniHUD:repo]                  |
 | ModMenu                  | client               | adds a menu for viewing a list of installed mods                                                      | yes       | [yes (3.0.0)][ModMenu:build-1.18]               | [github][ModMenu:github], [modrinth][ModMenu:modrinth]                                                  | [github][ModMenu:repo]                  |
+| No Telemetry             | client               | disables the invasive telemetry introduced by Microsoft in 21w38a                                     | no        | yes                                             | [modrinth][No Telemetry:modrinth]                                                                       | [github][No Telemetry:repo]             |
+| Not Enough Animations    | client               | provides/alters a lot of animations to make them look better (only affects vanilla players, no pones) | unknown   | yes                                             | [curseforge][Not Enough Animations:curseforge]                                                          | [github][Not Enough Animations:repo]    |
 | Ok Zoomer                | client               | highly configurable zoom key                                                                          | yes       | [yes (5.0.0-beta.3)][Ok Zoomer:build-1.18]      | [github][Ok Zoomer:github], [modrinth][Ok Zoomer:modrinth]                                              | [github][Ok Zoomer:repo]                |
+| PaperDoll                | client               | shows a Bedrock-style paper doll                                                                      | unknown   | yes                                             | [curseforge][PaperDoll:curseforge]                                                                      | [github][PaperDoll:repo]                |
 | Phosphor                 | client and/or server | lighting engine optimisation mod                                                                      | yes(?)    | no                                              | [github][Phosphor:github]                                                                               | [github][Phosphor:repo]                 |
 | Presence Footsteps       | client               | overcomplicated footsteps enhancement mod                                                             | yes       | [yes (1.4.0)][Presence Footsteps:build-1.18]    | [github][Presence Footsteps:github]                                                                     | [github][Presence Footsteps:repo]       |
 | ReplayMod                | client               | record game sessions and replay them afterwards from any perspective                                  | yes       | [yes (2.6.2)][ReplayMod:build-1.18]             | [website][ReplayMod:website]                                                                            | [github][ReplayMod:repo]                |
+| Roughly Enough Items     | client               | An easy way to list all items and view crafting recipes                                               | unknown   | yes                                             | [curseforge][Roughly Enough Items:curseforge]                                                           | [github][Roughly Enough Items:repo]     |
 | Shulker Box Tooltip      | client               | see a preview window of shulker box contents without placing it down                                  | yes       | [yes (3.0.5)][Shulker Box Tooltip:build-1.18]   | [github][Shulker Box Tooltip:github]                                                                    | [github][Shulker Box Tooltip:repo]      |
 | Simple Voice Chat        | client and/or server | adds a proximity voice chat                                                                           | yes       | [yes(?) (2.1.22)][Simple Voice Chat:build-1.18] | [curseforge][Simple Voice Chat:curseforge]                                                              | [github][Simple Voice Chat:repo]        |
 | Sodium                   | client and/or server | optimisation mod that improves frame rates, reduces micro-stutter, and fixes graphical issues         | yes       | unstable(?)                                     | [github][Sodium:github], [modrinth][Sodium:modrinth]                                                    | [github][Sodium:repo]                   |
@@ -76,6 +81,9 @@ See [key](#key) for information on what I mean in the version columns.
 [Advancements Enlarger:repo]: https://github.com/shedaniel/advancements-enlarger
 [Advancements Enlarger:curseforge]: https://www.curseforge.com/minecraft/mc-mods/advancements-enlarger/files
 [Advancements Enlarger:build-1.18]: mods/1.18/1.18-advancements-enlarger-0.2.4.jar
+
+[Architectury API:repo]: https://github.com/architectury/architectury-api
+[Architectury API:curseforge]: https://www.curseforge.com/minecraft/mc-mods/architectury-fabric/files
 
 [Big Pony:repo]: https://github.com/minelittlepony/bigPony
 [Big Pony:github]: https://github.com/MineLittlePony/BigPony/releases
@@ -157,10 +165,19 @@ See [key](#key) for information on what I mean in the version columns.
 [ModMenu:modrinth]: https://modrinth.com/mod/modmenu
 [ModMenu:build-1.18]: mods/1.18/1.18-modmenu-3.0.0.jar
 
+[No Telemetry:repo]: https://github.com/kb-1000/no-telemetry
+[No Telemetry:modrinth]: https://modrinth.com/mod/no-telemetry/versions
+
+[Not Enough Animations:repo]: https://github.com/tr7zw/NotEnoughAnimations
+[Not Enough Animations:curseforge]: https://www.curseforge.com/minecraft/mc-mods/not-enough-animations/files
+
 [Ok Zoomer:repo]: https://github.com/joaoh1/OkZoomer/
 [Ok Zoomer:github]: https://github.com/EnnuiL/OkZoomer/releases
 [Ok Zoomer:modrinth]: https://modrinth.com/mod/ok-zoomer
 [Ok Zoomer:build-1.18]: mods/1.18/1.18-ok-zoomer-5.0.0-beta.3.jar
+
+[PaperDoll:repo]: https://github.com/tr7zw/PaperDoll
+[PaperDoll:curseforge]: https://www.curseforge.com/minecraft/mc-mods/paperdoll/files
 
 [Physics Mod:website]: https://minecraftphysicsmod.com/
 
@@ -174,6 +191,9 @@ See [key](#key) for information on what I mean in the version columns.
 [ReplayMod:repo]: https://github.com/ReplayMod/ReplayMod
 [ReplayMod:website]: https://www.replaymod.com/download/
 [ReplayMod:build-1.18]: mods/1.18/1.18-replaymod-2.6.2.jar
+
+[Roughly Enough Items:repo]: https://github.com/shedaniel/RoughlyEnoughItems
+[Roughly Enough Items:curseforge]: https://www.curseforge.com/minecraft/mc-mods/roughly-enough-items/files
 
 [Shulker Box Tooltip:repo]: https://github.com/MisterPeModder/ShulkerBoxTooltip
 [Shulker Box Tooltip:github]: https://github.com/MisterPeModder/ShulkerBoxTooltip/releases
