@@ -6,7 +6,7 @@ A list of minecraft mods and resource packs that I use when I play minecraft.
 
 I use and highly recommend [fabric](https://fabricmc.net/). (I do also have my eyeballs firmly planted on [quilt](https://quiltmc.org).) These mods are all available for fabric. All of these mods are "vanilla compatible" unless otherwise specified.This means you can join vanilla servers with them installed with no problems. The ones that change things in non vanilla compatible ways (such as Big Pony, which can change your hitbox, among other things) will disable themselves gracefully while you are playing on a vanilla server.
 
-See [key](#key) for information on what i mean in the version columns.
+See [key](#key) for information on what I mean in the version columns.
 
 | mod name                 | environment          | description                                                                                           | MC 1.17.1 | MC 1.18.1                                       | official download link                                                                                  | repo link                               |
 | ------------------------ | -------------------- | ----------------------------------------------------------------------------------------------------- | --------- | ----------------------------------------------- | ------------------------------------------------------------------------------------------------------- | --------------------------------------- |
@@ -59,15 +59,15 @@ See [key](#key) for information on what i mean in the version columns.
 
 | thing       | meaning                                                                                                             |
 | ----------- | ------------------------------------------------------------------------------------------------------------------- |
-| yes         | stable version of the mod *exists* and works for this version of MC (even if not built for it) as far as i can tell |
+| yes         | stable version of the mod _exists_ and works for this version of MC (even if not built for it) as far as I can tell |
 | no          | not released for this version of MC                                                                                 |
-| maybe       | released for a different version of MC, but still *might* be compatible with this version                           |
+| maybe       | released for a different version of MC, but still _might_ be compatible with this version                           |
 | partial     | (resource packs) released for a different version of MC, but still at least partially compatile                     |
 | dev         | unreleased version available on development trunk                                                                   |
 | dev (maybe) | unreleased version available on development trunk, but for a different version of MC (see maybe)                    |
 | unstable    | prerelease version is released                                                                                      |
-| unknown     | i don't know (and i didn't check)                                                                                   |
-| ?           | I have not tested it *yet*, cannot personally verify that it works                                                  |
+| unknown     | I don't know (and I didn't check)                                                                                   |
+| ?           | I have not tested it _yet_, cannot personally verify that it works                                                  |
 
 <!-- download sources in order of preference. github, website, modrinth, curseforge -->
 
